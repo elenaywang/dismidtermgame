@@ -3,6 +3,8 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+//testing
+
 public class PlayerPlatformerController : MonoBehaviour
 {
     public float speed = 5;
