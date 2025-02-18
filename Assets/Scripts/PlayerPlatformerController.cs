@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class PlayerPlatformerController : MonoBehaviour
 {
     public float speed = 5;
-    public float jumpForce = 3;
+    public float jumpForce = 5;
 
     [Header("Grounding")]
     public LayerMask groundMask;
@@ -54,9 +54,9 @@ public class PlayerPlatformerController : MonoBehaviour
         RaycastHit2D hitLeft = Physics2D.Raycast(rayStartLeft, Vector3.down, groundRayLength * 2, groundMask);
         RaycastHit2D hitRight = Physics2D.Raycast(rayStartRight, Vector3.down, groundRayLength * 2, groundMask);
 
-        Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
-        Debug.DrawLine(rayStartLeft, rayStartLeft + Vector3.down * groundRayLength * 2, Color.red);
-        Debug.DrawLine(rayStartRight, rayStartRight + Vector3.down * groundRayLength * 2, Color.red);
+        // Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
+        // Debug.DrawLine(rayStartLeft, rayStartLeft + Vector3.down * groundRayLength * 2, Color.red);
+        // Debug.DrawLine(rayStartRight, rayStartRight + Vector3.down * groundRayLength * 2, Color.red);
 
 
         if (hit.collider != null || hitLeft.collider != null || hitRight.collider != null) {

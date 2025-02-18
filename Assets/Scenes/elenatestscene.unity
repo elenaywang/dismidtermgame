@@ -356,8 +356,9 @@ GameObject:
   - component: {fileID: 1145673402}
   - component: {fileID: 1145673401}
   - component: {fileID: 1145673399}
-  - component: {fileID: 1145673398}
   - component: {fileID: 1145673403}
+  - component: {fileID: 1145673405}
+  - component: {fileID: 1145673404}
   m_Layer: 0
   m_Name: player_right1
   m_TagString: Untagged
@@ -365,26 +366,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1145673398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145673397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db30b18c13f704e74ab624f8d684151c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 3
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 1
-  groundRayLength: 0.1
-  groundRaySpread: 0.4
-  grounded: 0
 --- !u!50 &1145673399
 Rigidbody2D:
   serializedVersion: 5
@@ -537,6 +518,47 @@ PolygonCollider2D:
       - {x: 0.85, y: 1.5}
       - {x: 0.45000002, y: 1.8000001}
   m_UseDelaunayMesh: 0
+--- !u!114 &1145673404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145673397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5c3f8b585b443bf99698082a052ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationFPS: 7
+  idleAnim:
+  - {fileID: 2013483995, guid: 9ac26209910a94c4999ee3b62573aa07, type: 3}
+  walkAnim:
+  - {fileID: 2013483995, guid: 9ac26209910a94c4999ee3b62573aa07, type: 3}
+  - {fileID: -2023923573111878767, guid: 9ac26209910a94c4999ee3b62573aa07, type: 3}
+  - {fileID: -1205440766039775075, guid: 9ac26209910a94c4999ee3b62573aa07, type: 3}
+  jumpAnim:
+  - {fileID: 2013483995, guid: 9ac26209910a94c4999ee3b62573aa07, type: 3}
+--- !u!114 &1145673405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145673397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db30b18c13f704e74ab624f8d684151c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 1
+  groundRayLength: 0.1
+  groundRaySpread: 0.4
+  grounded: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
