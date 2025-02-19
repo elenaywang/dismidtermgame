@@ -1,6 +1,7 @@
 using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class IncreaseThreshold : MonoBehaviour
 {
@@ -10,6 +11,6 @@ public class IncreaseThreshold : MonoBehaviour
     void Update()
     {
         internalCount = thresholdCount;
-        displayThreshold.GetComponent<Text>().text = "Threshold: " + internalCount;
+        displayThreshold.GetComponent<TMPro.TextMeshProUGUI>().text = "Threshold: " + internalCount;
     }
 }
