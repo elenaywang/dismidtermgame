@@ -2,8 +2,10 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 
+// add this sprite to the Platformer Player game object
 public class PlayerPlatformerController : MonoBehaviour
 {
     public float speed = 5;
@@ -37,7 +39,7 @@ public class PlayerPlatformerController : MonoBehaviour
 
         UpdateGrounding();
 
-        bool inputJump = Input.GetKeyDown(KeyCode.Space);
+        bool inputJump = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space);
         if (inputJump && grounded) {
             vel.y = jumpForce;
         }

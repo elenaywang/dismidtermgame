@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+
+// add this script to the Platformer Player game object
 public class ObjectManager : MonoBehaviour
 {
 
