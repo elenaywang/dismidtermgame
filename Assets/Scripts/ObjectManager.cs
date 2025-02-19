@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 
 // add this script to the Platformer Player game object
+
 public class ObjectManager : MonoBehaviour
 {
 
@@ -39,6 +40,9 @@ public class ObjectManager : MonoBehaviour
             obj3 = other.gameObject;
             Debug.Log("you collected obj3!");
             obj3.GetComponent<Object>().doorToUnlock.Unlock();      // open last door
-		} 
+		} else if (other.CompareTag("Trap")) {
+            // restart maze section. maybe set player's position to the maze section's start position? also reset the section's object?
+            Debug.Log("you fell into a trap :(");
+        }
 	}
 }

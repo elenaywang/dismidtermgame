@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 
 
 // add this script to the Platformer Player game object
+
 public class PlayerPlatformerController : MonoBehaviour
 {
     public float speed = 5;
