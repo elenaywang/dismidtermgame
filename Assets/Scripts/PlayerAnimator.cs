@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 
 // add this script to the Platformer Player game object
+
 public class PlayerAnimator : MonoBehaviour
 {
     public enum AnimationState {

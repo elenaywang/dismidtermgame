@@ -7,6 +7,7 @@ TagManager:
   - Obj1
   - Obj2
   - Obj3
+  - Trap
   layers:
   - Default
   - TransparentFX
