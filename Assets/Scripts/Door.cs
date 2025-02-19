@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-// add this sprite to the door game objects in the platformer
+// add this script to the door game objects in the platformer
 
 public class Door : MonoBehaviour
 {

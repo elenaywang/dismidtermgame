@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 
 
-// add this sprite to the Platformer Player game object
+// add this script to the Platformer Player game object
 public class PlayerPlatformerController : MonoBehaviour
 {
     public float speed = 5;
