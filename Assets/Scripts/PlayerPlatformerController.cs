@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using System;
 
 
 // add this script to the Platformer Player game object
@@ -11,6 +12,10 @@ public class PlayerPlatformerController : MonoBehaviour
 {
     public float speed = 5;
     public float jumpForce = 5;
+
+    public int hp = 100;
+
+    // public int section = 0;      // variable to save which maze section the player is in? to be changed by ObjectManager probably
 
     [Header("Grounding")]
     public LayerMask groundMask;
@@ -46,6 +51,11 @@ public class PlayerPlatformerController : MonoBehaviour
         }
 
         rb2d.linearVelocity = vel;
+
+        // player restarts maze section if hp runs out
+        if (hp <= 0) {
+            RestartSection();
+        }
     }
 
 
@@ -68,5 +78,15 @@ public class PlayerPlatformerController : MonoBehaviour
         } else {
             grounded = false;
         }
+    }
+
+
+    private void RestartSection() {
+        // restart maze section. maybe set player's position to the maze section's start position? 
+        // check section variable for which maze section the player is in
+        // also reset the section's object?
+        Debug.Log("you died :( \t section has restarted");
+        // Debug.Log(String.Format("you died :( \t section {} has restarted", section));
+        hp = 100;       // reset hp
     }
 }
