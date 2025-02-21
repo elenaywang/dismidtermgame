@@ -589,7 +589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 5
-  hp: 10
+  hp: 20
   groundMask:
     serializedVersion: 2
     m_Bits: 1

@@ -13,9 +13,9 @@ public class PlayerPlatformerController : MonoBehaviour
     public float speed = 5;
     public float jumpForce = 5;
 
-    public int hp = 100;
+    public int hp = 20;
 
-    // public int section = 0;      // variable to save which maze section the player is in? to be changed by ObjectManager probably
+    public int section = 0;      // variable to save which maze section the player is in? to be changed by ObjectManager probably
 
     [Header("Grounding")]
     public LayerMask groundMask;
@@ -85,8 +85,11 @@ public class PlayerPlatformerController : MonoBehaviour
         // restart maze section. maybe set player's position to the maze section's start position? 
         // check section variable for which maze section the player is in
         // also reset the section's object?
-        Debug.Log("you died :( \t section has restarted");
-        // Debug.Log(String.Format("you died :( \t section {} has restarted", section));
+        // Debug.Log("you died :( \t section has restarted");
+        Debug.Log(String.Format("you died :( \t section {} has restarted", section));
         hp = 100;       // reset hp
     }
+
+
+    // private void DisplayHP() {}
 }

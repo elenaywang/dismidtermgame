@@ -6,7 +6,7 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
 
-    bool locked = true;
+    // bool locked = true;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,7 +24,7 @@ public class Door : MonoBehaviour
 
 
     public void Unlock() {
-        locked = false;
+        // locked =  false;
         Debug.Log("door is unlocked");
         Destroy(gameObject);
     }
