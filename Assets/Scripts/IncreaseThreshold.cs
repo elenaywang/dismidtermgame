@@ -14,10 +14,11 @@ public class IncreaseThreshold : MonoBehaviour
     {
         internalCount = thresholdCount;
         displayThreshold.GetComponent<TMPro.TextMeshProUGUI>().text = "Threshold: " + internalCount;
+        switchLayers();
     }
 
     private void switchLayers(){
-        if (internalCount == 20){
+        if (internalCount >= 20){
             clickCanvas.enabled = false;
             platformCanvas.enabled = true;
         }
