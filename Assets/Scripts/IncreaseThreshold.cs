@@ -15,6 +15,7 @@ public class IncreaseThreshold : MonoBehaviour
     public Canvas platform3;
     public int[] maxThreshold;
     
+    
     void Update()
     {
         internalCount = thresholdCount;
@@ -23,9 +24,7 @@ public class IncreaseThreshold : MonoBehaviour
     }
 
     private void switchLayers(){
-        maxThreshold[0] = 20;
-        maxThreshold[1] = 40;
-        maxThreshold[2]= 60;
+        
         
         if (internalCount == maxThreshold[0]){
             clickCanvas.enabled = false;
