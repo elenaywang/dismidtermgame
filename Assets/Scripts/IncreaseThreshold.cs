@@ -1,8 +1,4 @@
-using UnityEditor.PackageManager;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-using UnityEditor.U2D.Aseprite;
 
 public class IncreaseThreshold : MonoBehaviour
 {
@@ -14,7 +10,7 @@ public class IncreaseThreshold : MonoBehaviour
     public Canvas platform2;
     public Canvas platform3;
     public int[] maxThreshold;
-    
+
     void Update()
     {
         internalCount = thresholdCount;
@@ -22,24 +18,32 @@ public class IncreaseThreshold : MonoBehaviour
         switchLayers();
     }
 
-    private void switchLayers(){
+    private void switchLayers()
+    {
         maxThreshold[0] = 20;
         maxThreshold[1] = 40;
-        maxThreshold[2]= 60;
-        
-        if (internalCount == maxThreshold[0]){
-            clickCanvas.enabled = false;
-            platform1.enabled = true;
-        }
-        else if (internalCount == maxThreshold[1]){
-            clickCanvas.enabled = false;
-            platform2.enabled = true;
-        }
-        else if (internalCount == maxThreshold[2]){
-            clickCanvas.enabled = false;
-            platform3.enabled = true;
+        maxThreshold[2] = 60;
+
+
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (internalCount >= maxThreshold[i])
+            {
+                clickCanvas.enabled = false;
+                platform1.enabled = true;
+                thresholdCount = maxThreshold[i];
+            }
+
+            /* }
+             else if (internalCount == maxThreshold[1]){
+                 clickCanvas.enabled = false;
+                 platform2.enabled = true;
+             }
+             else if (internalCount == maxThreshold[2]){
+                 clickCanvas.enabled = false;
+                 platform3.enabled = true; */
         }
     }
-    
 
 }
