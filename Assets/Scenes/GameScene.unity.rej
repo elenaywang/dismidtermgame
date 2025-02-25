@@ -1,0 +1,13 @@
+diff a/Assets/Scenes/GameScene.unity b/Assets/Scenes/GameScene.unity	(rejected hunks)
+@@ -1575,7 +1575,11 @@
+   platform1: {fileID: 1045849311}
+   platform2: {fileID: 1045849311}
+   platform3: {fileID: 1045849311}
++<<<<<<< HEAD
+   maxThreshold: 000000000000000000000000
++=======
++  maxThreshold: 14000000280000003c000000
++>>>>>>> parent of d394403 (Merge branch 'main' of https://github.com/elenaywang/dismidtermgame)
+ --- !u!4 &884836231
+ Transform:
+   m_ObjectHideFlags: 0
