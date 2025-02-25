@@ -36,9 +36,11 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Move();
+        Jump();
+        
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
-             DoJump = true;
+            DoJump = true;
             animator.SetBool("IsJumping", true);
         }
         if (DoJump)
@@ -50,7 +52,10 @@ public class PlayerMovement : MonoBehaviour
         // AnimatePlayerSprite();
         //Vector2 normalizedDir = playerRB2D.linearVelocity.normalized;
         //transform.right = normalizedDir;
+        
+        
     }
+
     private void Move()
     {
         Vector2 velocity = playerRB2D.linearVelocity;
@@ -81,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && Mathf.Approximately(playerRB2D.linearVelocityY, 0))
         { // Ensure jumping only when grounded
             playerRB2D.linearVelocity = new Vector2(playerRB2D.linearVelocityX, jumpHeight);
+            DoJump = true;
         }
     }
 
