@@ -1573,9 +1573,15 @@ MonoBehaviour:
   internalCount: 0
   clickCanvas: {fileID: 1489941046}
   platform1: {fileID: 1045849311}
+<<<<<<< HEAD
   platform2: {fileID: 1045849311}
   platform3: {fileID: 1045849311}
   maxThreshold: 
+=======
+  platform2: {fileID: 0}
+  platform3: {fileID: 0}
+  maxThreshold: 14000000280000003c000000
+>>>>>>> 5a5b65887c7baacd865c69716a5f47c99d28830e
 --- !u!4 &884836231
 Transform:
   m_ObjectHideFlags: 0
