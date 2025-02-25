@@ -1576,14 +1576,10 @@ MonoBehaviour:
   platform2: {fileID: 1045849311}
   platform3: {fileID: 1045849311}
 <<<<<<< HEAD
-<<<<<<< HEAD
-  maxThreshold: 14000000280000003c000000
-=======
   maxThreshold: 000000000000000000000000
->>>>>>> 5167eec7fb2f26e248767428c7992409dc7e7077
 =======
-  maxThreshold: 
->>>>>>> parent of 5167eec (maybe helped the Clicker threshold)
+  maxThreshold: 14000000280000003c000000
+>>>>>>> parent of d394403 (Merge branch 'main' of https://github.com/elenaywang/dismidtermgame)
 --- !u!4 &884836231
 Transform:
   m_ObjectHideFlags: 0
@@ -20706,7 +20702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1489941043
 RectTransform:
   m_ObjectHideFlags: 0
