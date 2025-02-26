@@ -2,6 +2,7 @@ using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor.U2D.Aseprite;
 
 public class IncreaseThreshold : MonoBehaviour
 {
@@ -9,7 +10,11 @@ public class IncreaseThreshold : MonoBehaviour
     public GameObject displayThreshold;
     public int internalCount;
     public Canvas clickCanvas;
-    public Canvas platformCanvas;
+    public Canvas platform1;
+    public Canvas platform2;
+    public Canvas platform3;
+    public int[] maxThreshold;
+    
     void Update()
     {
         internalCount = thresholdCount;
@@ -18,9 +23,25 @@ public class IncreaseThreshold : MonoBehaviour
     }
 
     private void switchLayers(){
-        if (internalCount >= 20){
+        maxThreshold[0] = 20;
+        maxThreshold[1] = 40;
+        maxThreshold[2]= 60;
+        
+        if (internalCount == maxThreshold[0]){
             clickCanvas.enabled = false;
-            platformCanvas.enabled = true;
+            platform1.enabled = true;
+        }
+        //reach certain threshold in platformer, switch back to clicker 
+        else if (internalCount == maxThreshold[1]){
+            clickCanvas.enabled = false;
+            platform2.enabled = true;
+        }
+        //reach certain threshold in platformer, switch back to clicker 
+        else if (internalCount == maxThreshold[2]){
+            clickCanvas.enabled = false;
+            platform3.enabled = true;
         }
     }
+    
+
 }
