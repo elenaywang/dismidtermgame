@@ -31,10 +31,12 @@ public class IncreaseThreshold : MonoBehaviour
             clickCanvas.enabled = false;
             platform1.enabled = true;
         }
+        //reach certain threshold in platformer, switch back to clicker 
         else if (internalCount == maxThreshold[1]){
             clickCanvas.enabled = false;
             platform2.enabled = true;
         }
+        //reach certain threshold in platformer, switch back to clicker 
         else if (internalCount == maxThreshold[2]){
             clickCanvas.enabled = false;
             platform3.enabled = true;
