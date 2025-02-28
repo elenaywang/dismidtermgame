@@ -6,7 +6,7 @@ using System.Collections.Generic;
 // add this script to the Platformer Player game object
 
 public class PlayerAnimator : MonoBehaviour
-{
+{ /*
     public enum AnimationState {
         Idle,
         Walk,
@@ -16,25 +16,27 @@ public class PlayerAnimator : MonoBehaviour
     public float animationFPS = 7; 
     public Sprite[] idleAnim;
     public Sprite[] walkAnim; 
-    public Sprite[] jumpAnim;
+    public Sprite[] jumpAnim; */
+
+    public Animator PlayerAni;
 
     private Rigidbody2D rb2d;
     private PlayerPlatformerController controller;
     private SpriteRenderer sr;
 
-    private float frameTimer = 0;
+   /* private float frameTimer = 0;
     private int frameIndex = 0;
     private AnimationState state = AnimationState.Idle;
-    private Dictionary<AnimationState, Sprite[]> animationAtlas;
+    private Dictionary<AnimationState, Sprite[]> animationAtlas; */
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        animationAtlas = new Dictionary<AnimationState, Sprite[]>();
+        /*animationAtlas = new Dictionary<AnimationState, Sprite[]>();
         animationAtlas.Add(AnimationState.Idle, idleAnim);
         animationAtlas.Add(AnimationState.Walk, walkAnim);
-        animationAtlas.Add(AnimationState.Jump, jumpAnim);
+        animationAtlas.Add(AnimationState.Jump, jumpAnim);*/
 
         rb2d = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -45,7 +47,7 @@ public class PlayerAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AnimationState newState = GetAnimationState();
+        /*AnimationState newState = GetAnimationState();
         if (state != newState) {
             TransitionToState(newState);
         }
@@ -57,18 +59,33 @@ public class PlayerAnimator : MonoBehaviour
             frameIndex %= anim.Length;
             sr.sprite = anim[frameIndex];
             frameIndex++;
-        }
-
+        }*/
+        //move
         if (rb2d.linearVelocity.x < -0.01f) {
             sr.flipX = true;
+            PlayerAni.SetBool("IsWalking", true);
         }
 
-        if (rb2d.linearVelocity.x > 0.01f) {
+        else if (rb2d.linearVelocity.x > 0.01f) {
             sr.flipX = false;
+            PlayerAni.SetBool("IsWalking", true);
+        }
+        else
+        {
+            PlayerAni.SetBool("IsWalking", false);
+        }
+        //jump
+        if (rb2d.linearVelocity.y > 0.01f)
+        {
+            PlayerAni.SetBool("IsJumping", true);
+        }
+        else
+        {
+            PlayerAni.SetBool("IsJumping", false);
         }
     }
 
-
+    /*
     void TransitionToState(AnimationState newState) {
         frameTimer = 0.0f;
         frameIndex = 0;
@@ -83,5 +100,5 @@ public class PlayerAnimator : MonoBehaviour
             return AnimationState.Walk;
         }
         return AnimationState.Idle;
-    }
+    } */
 }
