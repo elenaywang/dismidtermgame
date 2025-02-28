@@ -22,6 +22,7 @@ public class ObjectManager : MonoBehaviour
 	        obj1 = other.gameObject;
 	        Debug.Log("you collected obj1!");
 	        obj1.GetComponent<Object>().doorToUnlock.Unlock();                          // open door to section 2
+            obj1.GetComponent<Renderer>().enabled = false;                              // make object disappear
 	        GetComponent<PlayerPlatformerController>().section = 2;
 	        thresholdDisplay.GetComponent<IncreaseThreshold>().switchToClicker();       // switch to clicker game
 	    } 
@@ -29,6 +30,7 @@ public class ObjectManager : MonoBehaviour
                 obj2 = other.gameObject;
                 Debug.Log("you collected obj2!");
                 obj2.GetComponent<Object>().doorToUnlock.Unlock();                          // open door to section 3
+                obj2.GetComponent<Renderer>().enabled = false;                              // make object disappear
                 GetComponent<PlayerPlatformerController>().section = 3;
                 thresholdDisplay.GetComponent<IncreaseThreshold>().switchToClicker();       // switch to clicker game
 	    } 
@@ -36,6 +38,7 @@ public class ObjectManager : MonoBehaviour
                  obj3 = other.gameObject;
                  Debug.Log("you collected obj3!");
                  obj3.GetComponent<Object>().doorToUnlock.Unlock();                          // open last door
+                 obj3.GetComponent<Renderer>().enabled = false;                              // make object disappear
                  GetComponent<PlayerPlatformerController>().section = 4;
                  thresholdDisplay.GetComponent<IncreaseThreshold>().switchToClicker();       // switch to clicker game
 	    } 
