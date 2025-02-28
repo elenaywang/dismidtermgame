@@ -89,7 +89,4 @@ public class PlayerPlatformerController : MonoBehaviour
         Debug.Log(String.Format("you died :( \t section {} has restarted", section));
         hp = 20;       // reset hp
     }
-
-
-    // private void DisplayHP() {}
 }

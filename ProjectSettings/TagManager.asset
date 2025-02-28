@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Obj1
   - Obj2
-  - Obj3
   - Trap
+  - Door3
   layers:
   - Default
   - TransparentFX
