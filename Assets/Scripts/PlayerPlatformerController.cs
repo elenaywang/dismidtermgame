@@ -68,9 +68,9 @@ public class PlayerPlatformerController : MonoBehaviour
         RaycastHit2D hitLeft = Physics2D.Raycast(rayStartLeft, Vector3.down, groundRayLength * 2, groundMask);
         RaycastHit2D hitRight = Physics2D.Raycast(rayStartRight, Vector3.down, groundRayLength * 2, groundMask);
 
-        // Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
-        // Debug.DrawLine(rayStartLeft, rayStartLeft + Vector3.down * groundRayLength * 2, Color.red);
-        // Debug.DrawLine(rayStartRight, rayStartRight + Vector3.down * groundRayLength * 2, Color.red);
+        Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
+        Debug.DrawLine(rayStartLeft, rayStartLeft + Vector3.down * groundRayLength * 2, Color.red);
+        Debug.DrawLine(rayStartRight, rayStartRight + Vector3.down * groundRayLength * 2, Color.red);
 
 
         if (hit.collider != null || hitLeft.collider != null || hitRight.collider != null) {
@@ -87,7 +87,7 @@ public class PlayerPlatformerController : MonoBehaviour
         // also reset the section's object?
         // Debug.Log("you died :( \t section has restarted");
         Debug.Log(String.Format("you died :( \t section {} has restarted", section));
-        hp = 100;       // reset hp
+        hp = 20;       // reset hp
     }
 
 

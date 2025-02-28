@@ -34,7 +34,9 @@ public class IncreaseThreshold : MonoBehaviour
             clickCanvas.enabled = false;
             platform1.enabled = true;
             // Debug.Log("step:" + section);
-            section++;
+            if (section < 3) {
+                section++;
+            }
         }
         
     }
