@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 935826fc89f588c45bd57f10895a5f1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3858819789991857146
+    second: BoneBG2_0
+  - first:
+      213: 7589229637760602563
+    second: BoneBG2_1
+  - first:
+      213: -1353941753615843745
+    second: BoneBG2_2
+  - first:
+      213: -6349400525826715148
+    second: BoneBG2_3
+  - first:
+      213: 8899171337118508427
+    second: BoneBG2_4
+  - first:
+      213: 7125563882919418072
+    second: BoneBG2_5
+  - first:
+      213: -6685867375307208824
+    second: BoneBG2_6
+  - first:
+      213: 4548624308400185561
+    second: BoneBG2_7
+  - first:
+      213: -1322521622053161752
+    second: BoneBG2_8
+  - first:
+      213: -6557402077115675066
+    second: BoneBG2_9
+  - first:
+      213: 5016895091946821218
+    second: BoneBG2_10
+  - first:
+      213: 8906972992290547080
+    second: BoneBG2_11
+  - first:
+      213: 8552660862899858388
+    second: BoneBG2_12
+  - first:
+      213: 781539807941083590
+    second: BoneBG2_13
+  - first:
+      213: 2120359437156378084
+    second: BoneBG2_14
+  - first:
+      213: 6739120881368310383
+    second: BoneBG2_15
+  - first:
+      213: -5933579775533339266
+    second: BoneBG2_16
+  - first:
+      213: -6131462646838246160
+    second: BoneBG2_17
+  - first:
+      213: 6805286632029916096
+    second: BoneBG2_18
+  - first:
+      213: -6004535317300016697
+    second: BoneBG2_19
+  - first:
+      213: 4414712540546429619
+    second: BoneBG2_20
+  - first:
+      213: 975909628969266239
+    second: BoneBG2_21
+  - first:
+      213: -879600735670638982
+    second: BoneBG2_22
+  - first:
+      213: 7941798784818347608
+    second: BoneBG2_23
+  - first:
+      213: 892610051841061722
+    second: BoneBG2_24
+  - first:
+      213: 5294584227865871614
+    second: BoneBG2_25
+  - first:
+      213: -1577787807013110823
+    second: BoneBG2_26
+  - first:
+      213: 1382566996364005339
+    second: BoneBG2_27
+  - first:
+      213: -9087150928956153150
+    second: BoneBG2_28
+  - first:
+      213: 8687395337171033142
+    second: BoneBG2_29
+  - first:
+      213: -7918587290943497090
+    second: BoneBG2_30
+  - first:
+      213: -8155792703919085964
+    second: BoneBG2_31
+  - first:
+      213: -4661404091493562987
+    second: BoneBG2_32
+  - first:
+      213: 4625221824914718267
+    second: BoneBG2_33
+  - first:
+      213: 4161292351759479825
+    second: BoneBG2_34
+  - first:
+      213: 4937234333997376624
+    second: BoneBG2_35
+  - first:
+      213: 3473681578329751526
+    second: BoneBG2_36
+  - first:
+      213: 13380795819172086
+    second: BoneBG2_37
+  - first:
+      213: 7834254795590484170
+    second: BoneBG2_38
+  - first:
+      213: 4580307501664459995
+    second: BoneBG2_39
+  - first:
+      213: 889448483975302163
+    second: BoneBG2_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoneBG2_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 214
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb46b277284d8530800000000000000
+      internalID: 3858819789991857146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 190
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c15695652c525960800000000000000
+      internalID: 7589229637760602563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 214
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e78290625d53de0800000000000000
+      internalID: -1353941753615843745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 190
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f19b61ccd562e7a0800000000000000
+      internalID: -6349400525826715148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 213
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8569486e25308b70800000000000000
+      internalID: 8899171337118508427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 189
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8d3c1499613e260800000000000000
+      internalID: 7125563882919418072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 214
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887c07f9b070733a0800000000000000
+      internalID: -6685867375307208824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 190
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d066e675b5ff1f30800000000000000
+      internalID: 4548624308400185561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e47fbd779575ade0800000000000000
+      internalID: -1322521622053161752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 166
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e8c10bd8d6ff4a0800000000000000
+      internalID: -6557402077115675066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 142
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26614e661879f9540800000000000000
+      internalID: 5016895091946821218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 166
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885e97dcebceb9b70800000000000000
+      internalID: 8906972992290547080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 142
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db2889adb721b670800000000000000
+      internalID: 8552660862899858388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 166
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1c726805698da00800000000000000
+      internalID: 781539807941083590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 142
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e56ad78ca70d6d10800000000000000
+      internalID: 2120359437156378084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 165
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6220687cba268d50800000000000000
+      internalID: 6739120881368310383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 141
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7da4e0b1a0b7ada0800000000000000
+      internalID: -5933579775533339266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_17
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 162
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f441a5653ba8eaa0800000000000000
+      internalID: -6131462646838246160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 118
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb8bd8c22c317e50800000000000000
+      internalID: 6805286632029916096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 118
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c98b0b31fa9baca0800000000000000
+      internalID: -6004535317300016697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_20
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 118
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b27bbc5aa5344d30800000000000000
+      internalID: 4414712540546429619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 118
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ca89f03a02b8d00800000000000000
+      internalID: 975909628969266239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 113
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76ed2e8ac70bc3f0800000000000000
+      internalID: -879600735670638982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 94
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ef9b6daefe63e60800000000000000
+      internalID: 7941798784818347608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 94
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53fde6ec10336c00800000000000000
+      internalID: 892610051841061722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 94
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4c457ad442a7940800000000000000
+      internalID: 5294584227865871614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 94
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db7a0859529a1ae0800000000000000
+      internalID: -1577787807013110823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 70
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf8478ab5ddf2310800000000000000
+      internalID: 1382566996364005339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 46
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2253b3064f3e180800000000000000
+      internalID: -9087150928956153150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 70
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cd6770804df8870800000000000000
+      internalID: 8687395337171033142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 46
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cd36830d68b1290800000000000000
+      internalID: -7918587290943497090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 70
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4762e2d3fbdc0de80800000000000000
+      internalID: -8155792703919085964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 46
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59549fb0dad5f4fb0800000000000000
+      internalID: -4661404091493562987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_33
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 70
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3efc698eb6103040800000000000000
+      internalID: 4625221824914718267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_34
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 46
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1147c21b851efb930800000000000000
+      internalID: 4161292351759479825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 66
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074a6cad774948440800000000000000
+      internalID: 4937234333997376624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efb92bbdfef43030800000000000000
+      internalID: 3473681578329751526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f02d9d43c98f2000800000000000000
+      internalID: 13380795819172086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_38
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0421b9a3dd8bc60800000000000000
+      internalID: 7834254795590484170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_39
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc54ceb765809f30800000000000000
+      internalID: 4580307501664459995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneBG2_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c8b550fa4f75c00800000000000000
+      internalID: 889448483975302163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoneBG2_0: 3858819789991857146
+      BoneBG2_1: 7589229637760602563
+      BoneBG2_10: 5016895091946821218
+      BoneBG2_11: 8906972992290547080
+      BoneBG2_12: 8552660862899858388
+      BoneBG2_13: 781539807941083590
+      BoneBG2_14: 2120359437156378084
+      BoneBG2_15: 6739120881368310383
+      BoneBG2_16: -5933579775533339266
+      BoneBG2_17: -6131462646838246160
+      BoneBG2_18: 6805286632029916096
+      BoneBG2_19: -6004535317300016697
+      BoneBG2_2: -1353941753615843745
+      BoneBG2_20: 4414712540546429619
+      BoneBG2_21: 975909628969266239
+      BoneBG2_22: -879600735670638982
+      BoneBG2_23: 7941798784818347608
+      BoneBG2_24: 892610051841061722
+      BoneBG2_25: 5294584227865871614
+      BoneBG2_26: -1577787807013110823
+      BoneBG2_27: 1382566996364005339
+      BoneBG2_28: -9087150928956153150
+      BoneBG2_29: 8687395337171033142
+      BoneBG2_3: -6349400525826715148
+      BoneBG2_30: -7918587290943497090
+      BoneBG2_31: -8155792703919085964
+      BoneBG2_32: -4661404091493562987
+      BoneBG2_33: 4625221824914718267
+      BoneBG2_34: 4161292351759479825
+      BoneBG2_35: 4937234333997376624
+      BoneBG2_36: 3473681578329751526
+      BoneBG2_37: 13380795819172086
+      BoneBG2_38: 7834254795590484170
+      BoneBG2_39: 4580307501664459995
+      BoneBG2_4: 8899171337118508427
+      BoneBG2_40: 889448483975302163
+      BoneBG2_5: 7125563882919418072
+      BoneBG2_6: -6685867375307208824
+      BoneBG2_7: 4548624308400185561
+      BoneBG2_8: -1322521622053161752
+      BoneBG2_9: -6557402077115675066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
