@@ -3,17 +3,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEditor.U2D.Aseprite;
+// using System.Diagnostics;
 
 public class IncreaseThreshold : MonoBehaviour
 {
     public static int thresholdCount;
     public GameObject displayThreshold;
     public int internalCount;
+    public int section = 0;
     public Canvas clickCanvas;
     public Canvas platform1;
-    public Canvas platform2;
-    public Canvas platform3;
+    //public Canvas platform2;
+    //public Canvas platform3;
     public int[] maxThreshold;
+
     
     void Update()
     {
@@ -26,19 +29,19 @@ public class IncreaseThreshold : MonoBehaviour
         maxThreshold[0] = 20;
         maxThreshold[1] = 40;
         maxThreshold[2]= 60;
-        
-        if (internalCount == maxThreshold[0]){
+
+        if (internalCount >= maxThreshold[section]) {
             clickCanvas.enabled = false;
             platform1.enabled = true;
+            // Debug.Log("step:" + section);
+            section++;
         }
-        else if (internalCount == maxThreshold[1]){
-            clickCanvas.enabled = false;
-            platform2.enabled = true;
-        }
-        else if (internalCount == maxThreshold[2]){
-            clickCanvas.enabled = false;
-            platform3.enabled = true;
-        }
+        
+    }
+
+    public void switchToClicker() {
+        clickCanvas.enabled = true;
+        platform1.enabled = false;
     }
     
 
