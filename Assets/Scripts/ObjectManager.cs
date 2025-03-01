@@ -12,8 +12,10 @@ public class ObjectManager : MonoBehaviour
 
     GameObject obj1;
     GameObject obj2;
+    GameObject obj3;
 
     public GameObject thresholdDisplay;
+    public Canvas WinScreen;
 
 
     void OnTriggerEnter2D(Collider2D other)
@@ -36,9 +38,10 @@ public class ObjectManager : MonoBehaviour
             GetComponent<PlayerPlatformerController>().section = 3;
             thresholdDisplay.GetComponent<IncreaseThreshold>().switchToClicker();       // switch to clicker game
         }
-        else if (other.CompareTag("Door3"))
+        else if (other.CompareTag("Obj3") && obj3 == null)
         {
-            // insert win screen
+            obj3 = other.gameObject;
+            WinScreen.enabled = true;
         }
         else if (other.CompareTag("Trap"))
         {

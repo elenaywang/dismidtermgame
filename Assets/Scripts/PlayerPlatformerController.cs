@@ -19,7 +19,7 @@ public class PlayerPlatformerController : MonoBehaviour
 
     [Header("Grounding")]
     public LayerMask groundMask;
-    public float groundRayLength = 0.1f;
+    public float groundRayLength;
     public float groundRaySpread = 0.4f;
     public bool grounded = false;
 
@@ -48,6 +48,7 @@ public class PlayerPlatformerController : MonoBehaviour
         bool inputJump = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space);
         if (inputJump && grounded) {
             vel.y = jumpForce;
+            grounded = false;
         }
 
         rb2d.linearVelocity = vel;
@@ -68,12 +69,13 @@ public class PlayerPlatformerController : MonoBehaviour
         RaycastHit2D hitLeft = Physics2D.Raycast(rayStartLeft, Vector3.down, groundRayLength * 2, groundMask);
         RaycastHit2D hitRight = Physics2D.Raycast(rayStartRight, Vector3.down, groundRayLength * 2, groundMask);
 
-        // Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
+         Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
         // Debug.DrawLine(rayStartLeft, rayStartLeft + Vector3.down * groundRayLength * 2, Color.red);
         // Debug.DrawLine(rayStartRight, rayStartRight + Vector3.down * groundRayLength * 2, Color.red);
 
 
-        if (hit.collider != null || hitLeft.collider != null || hitRight.collider != null) {
+        if (hit.collider != null) //|| hitLeft.collider != null || hitRight.collider != null) 
+        { 
             grounded = true; 
         } else {
             grounded = false;

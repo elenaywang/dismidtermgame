@@ -1,8 +1,8 @@
-using UnityEditor.PackageManager;
+//using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEditor.U2D.Aseprite;
+//using UnityEditor.U2D.Aseprite;
 // using System.Diagnostics;
 
 public class IncreaseThreshold : MonoBehaviour

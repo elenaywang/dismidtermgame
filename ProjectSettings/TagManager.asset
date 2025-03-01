@@ -8,6 +8,8 @@ TagManager:
   - Obj2
   - Trap
   - Door3
+  - Ground
+  - Obj3
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - Ground
   - 
   - 
   - 
